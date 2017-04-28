@@ -3,12 +3,12 @@
 
 Zatím to funguje jen pro nejnovější data ze současné Sněmovny a jen na jednom vyhledávacím enginu, ale obojí jde snadno změnit.
 
-## Instalace
+## Instalace
 Předpokládám určitou technickou znalost, kdybyste měli nějaké konkrétní dotazy, piště mi [e-maily](ondrej.kokes@gmail.com) nebo [tweety](http://twitter.com/kondrej). Ideálně větší záludnosti než *"co je Solr?"*, ale zas ne nějaká zvěrstva, jsem přeci jen ekonom :-)
 
 Jak jsem psal, je to postavené na konkrétní hledací technologii, konkrétně jde o [Solr](http://lucene.apache.org/solr/), což je engine predatující Elastic, dnešní hip hledadlo, funguje pěkně a rychle, ale já si ho vybral, protože se mi jméno líbilo víc jak Elastic. Ukážeme si ale oba přístupy.
 
-Na pozadí si tedy dejte instalovat Solr. Já jsem dítě Macintoshů, takže pro mě to je `brew install solr`, pro ostatní systémy dohledejte informace na webu projektu. Předpokládám, že Python máte, bude stačit základní sada knihoven + [pyquery](https://pypi.python.org/pypi/pyquery). Puristé mohou přepsat do `lxml`, mně to vyhovuje takto.
+Na pozadí si tedy dejte instalovat Solr. Já jsem dítě Macintoshů, takže pro mě to je `brew install solr`, pro ostatní systémy dohledejte informace na webu projektu. Předpokládám, že Python máte, bude stačit základní sada knihoven + `lxml`.
 
 Celý proces jak se dostat od zdrojových dat až po zpracované projevy, je popsaný [zvlášť v notebooku](Priprava_dat.ipynb).
 
